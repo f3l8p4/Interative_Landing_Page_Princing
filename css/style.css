@@ -14,6 +14,9 @@ body{
 input .range{
     background: url('../images/icon-slider.svg');
 }
+ul li .listMargin{
+    margin-bottom: 10px;
+}
 /*.main{
     border: 1px solid red;
     margin: 2.5em;
