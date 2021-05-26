@@ -28,6 +28,26 @@ body{
     margin-top: 3rem;
 }
 .title{
+    justify-items: center;
+    font-size: 1.8rem;
     font-weight:600;
     color: hsl(227, 35%, 25%);
+}
+.sub-title{
+    font-weight: 200;
+    font-size: 0.8rem;
+    margin: 0;
+    color: grey;
+}
+.card{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.card .card-content{
+    border:1px solid #fff;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
 }
