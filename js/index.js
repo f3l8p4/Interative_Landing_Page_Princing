@@ -1,4 +1,10 @@
-let range  = document.getElementById('range')
-let rangeValue = range.value
+let range  = document.querySelector('input') 
 let value = document.getElementById('value')
-console.log(range.value)
+range.addEventListener('input',function(){
+  console.log(range.textContent = this.value)
+})
+switch (range){
+    case 1:
+        
+    break;
+}
