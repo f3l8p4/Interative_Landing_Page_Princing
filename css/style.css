@@ -24,8 +24,10 @@ body{
     justify-content: center;
 }
 .main-text{
+    text-align: center;
     margin-top: 3rem;
 }
-.first-text{
+.title{
     font-weight:600;
+    color: hsl(227, 35%, 25%);
 }
