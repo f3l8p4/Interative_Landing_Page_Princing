@@ -38,7 +38,7 @@
   right: 1px;
   background-color: #f1f1f1;
   border-radius: 60px;
-  transition: background 0.4s;
+  transition:  0.4s;
 }
 .switch--shadow + label:after {
   width: 62px;
