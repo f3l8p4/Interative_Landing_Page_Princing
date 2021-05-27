@@ -20,12 +20,14 @@ body{
 .main-container{
     border: 1px solid red;
     display: flex;
+    grid-template-rows: 2fr 1fr;
     margin: 0 auto;
     justify-content: center;
 }
 .main-text{
     text-align: center;
-    margin-top: 3rem;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
 }
 .title{
     justify-items: center;
@@ -41,6 +43,7 @@ body{
 }
 .card{
     display: flex;
+    width: 50%;
     margin: 0 auto;
     justify-content: center;
 }
@@ -50,4 +53,11 @@ body{
     border-radius: 10px;
     padding: 20px;
     background: #fff;
+    justify-items: center;
 }
+.card .card-content .card-information{
+    display: inline-flex;
+    padding: 5px;
+    justify-content: center;
+}
+
