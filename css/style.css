@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap");
-
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +15,13 @@
 body{
     background: url('../images/bg-pattern.svg') no-repeat; 
     background-attachment: cover;
+}
+ul{
+    list-style: none;
+}
+.card-lists ul li{
+    justify-content: flex-start;
+    color: grey;
 }
 .main-container{
     border: 1px solid red;
@@ -45,6 +51,7 @@ body{
     justify-content: center;
 }
 .card .card-content{
+    display: grid;
     border:1px solid #fff;
     margin: 5px;
     width: 35rem;
@@ -56,5 +63,29 @@ body{
 .card .card-content .card-information{
     display: inline-flex;
     padding: 5px;
+}
+.form{
+    margin-top: 35px;
+}
+.card-lists{
+    width: 100%;
+    margin-top: 35px;
+    border: 1px solid blue;
+    display: flex;
+    font-size: 0.85rem;
+    padding: 5px;
+}
+.btn{
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: none;
+    color: hsl(226, 100%, 87%);
+    background: hsl(227, 35%, 25%);
+    padding: 20px;
+    border-radius: 30px;
+    font-weight: 800;
+}
+.btn:hover{
+    color: #fff;
 }
 
