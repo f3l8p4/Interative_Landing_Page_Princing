@@ -25,6 +25,11 @@ ul li{
 hr{
     width: 100%;
 }
+input{
+    width: 100%;
+    cursor:grabbing;
+    height: 100%;
+}
 .card-lists ul li{
     justify-content: flex-start;
     color: grey;
@@ -71,9 +76,19 @@ hr{
     display: inline-flex;
     padding: 5px;
     justify-content: center;
+    justify-content: space-around;
+}
+.pageviews{
+    color: grey;
+    font-weight: 500;
+}
+.price{
+    
 }
 .form{
+    border: 5px solid turquoise ;
     margin-top: 35px;
+    margin-bottom: 5px;
 }
 .card-lists{
     width: 340px;
