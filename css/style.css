@@ -83,7 +83,8 @@ input{
     font-weight: 500;
 }
 .price{
-    
+    font-weight: 300;
+    color: grey;
 }
 .form{
     border: 5px solid turquoise ;
