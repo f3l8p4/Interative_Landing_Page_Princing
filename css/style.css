@@ -67,8 +67,10 @@ hr{
     justify-content: center;
 }
 .card .card-content .card-information{
+    border: 1px solid green;
     display: inline-flex;
     padding: 5px;
+    justify-content: center;
 }
 .form{
     margin-top: 35px;
