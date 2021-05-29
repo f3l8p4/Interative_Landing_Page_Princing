@@ -19,6 +19,12 @@ body{
 ul{
     list-style: none;
 }
+ul li{
+    margin-bottom: 5px;
+}
+hr{
+    width: 100%;
+}
 .card-lists ul li{
     justify-content: flex-start;
     color: grey;
@@ -52,11 +58,11 @@ ul{
 }
 .card .card-content{
     display: grid;
-    border:1px solid #fff;
+    border:1px solid yellow;
     margin: 5px;
-    width: 35rem;
+    width: 20rem;
     border-radius: 10px;
-    padding: 20px;
+    padding: 5.5rem;
     background: #fff;
     justify-content: center;
 }
@@ -68,12 +74,13 @@ ul{
     margin-top: 35px;
 }
 .card-lists{
-    width: 100%;
-    margin-top: 35px;
+    width: 340px;
+    margin-top: 40px;
     border: 1px solid blue;
     display: flex;
     font-size: 0.85rem;
     padding: 5px;
+    justify-content: space-between;
 }
 .btn{
     font-size: 0.9rem;
