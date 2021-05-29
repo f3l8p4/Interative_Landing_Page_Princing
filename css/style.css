@@ -30,6 +30,10 @@ input{
     cursor:grabbing;
     height: 100%;
 }
+input::-webkit-slider-thumb{
+    background-image: url('../images/icon-slider.svg');
+    background-position: center;
+}
 .card-lists ul li{
     justify-content: flex-start;
     color: grey;
