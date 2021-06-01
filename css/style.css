@@ -83,10 +83,12 @@ input::-webkit-slider-thumb{
     justify-content: space-around;
 }
 .pageviews{
+    text-transform: uppercase;
     color: grey;
     font-weight: 500;
 }
 .price{
+    text-transform: uppercase;
     font-weight: 300;
     color: grey;
 }
