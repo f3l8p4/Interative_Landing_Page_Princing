@@ -1,7 +1,7 @@
 let range  = document.querySelector('input')
 let pageviews = document.getElementById('pageviews')
 let price = document.getElementById('value')
-const allprices= [
+/*const allprices= [
     {
         pageviews: '10K',
         price: 8
@@ -27,6 +27,7 @@ pageviews.innerHTML = `${price.pageviews}`
 let multiplier = yearlyBilling ? 0.75 : 1
 let finalPrice = allPrices[sv].price * multiplier
   htmlPrice.innerHTML = `$${finalPrice}.00`
+  */
 
 range.addEventListener('input',function(){
   return console.log(range.textContent = this.value)
