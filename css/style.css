@@ -119,4 +119,8 @@ input::-webkit-slider-thumb{
 .btn:hover{
     color: #fff;
 }
-
+.form-billing{
+    border: 1px solid salmon;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
