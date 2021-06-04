@@ -30,5 +30,5 @@ let finalPrice = allPrices[sv].price * multiplier
   */
 
 range.addEventListener('input',function(){
-  return priceviews.innerHTML = range.textContent = this.value
+  return (range.textContent = this.value)
 })
