@@ -116,8 +116,7 @@ input{
     color: #fff;
 }
 .form-billing{
-    margin-left: 5px;
-    margin-right: 5px;
+    color: gray;
     font-size: small;
     text-align: center;
     justify-content: center;
@@ -127,6 +126,8 @@ input{
     margin-bottom: 40px;
 }
 .billing{
+  margin-left: 5px;
+  margin-right: 5px;
   border: 1px solid red;
   justify-self: center;
   border-radius: 10px;
@@ -141,10 +142,3 @@ input{
     height: 14px;
     width: 14px;
 }
-.inactive{
-    background: #fff;
-}
-.active{
-  background-color: #f23;  
-}
-
