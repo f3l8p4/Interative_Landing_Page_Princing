@@ -30,10 +30,6 @@ input{
     cursor:grabbing;
     height: 100%;
 }
-input::-webkit-slider-thumb{
-    background-image: url('../images/icon-slider.svg');
-    background-position: center;
-}
 .card-lists ul li{
     justify-content: flex-start;
     color: grey;
@@ -129,10 +125,18 @@ input::-webkit-slider-thumb{
     margin-bottom: 40px;
 }
 .billing{
-    justify-self: center;
-    border-radius: 10px;
-    padding: 3px;
+  border: 1px solid red;
+  justify-self: center;
+  border-radius: 10px;
+  padding: 3px;
+  height: 14px;
+  width: 34px;
+  transition: 200ms;
+}
+.dot{
+    background-color: #fff;
+    border-radius: 50%;
     height: 14px;
-    width: 34px;
-    transition: 200ms;
+    width: 14px;
+    float: left;
 }
