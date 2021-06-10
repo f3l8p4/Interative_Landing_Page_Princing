@@ -140,7 +140,6 @@ input{
     border-radius: 50%;
     height: 14px;
     width: 14px;
-    float: left;
 }
 .inactive{
     background: #fff;
