@@ -1,11 +1,12 @@
 let range  = document.querySelector("input")
 let pageviews = document.getElementById("pageviews")
 let price = document.getElementById("value")
-let biling = document.getElementsByClassName("billing")
+let biling = document.getElementsByClassName("billing")[0]
 let dot = document.getElementsByClassName("dot")
 let yearlyBilling = false
 biling.addEventListener("click",function(e){
     if (dot.style.float == "right") {
+        dot.style.background = "#fff"
         dot.style.float = "left"
       } else {
         dot.style.float = "right"
@@ -38,3 +39,4 @@ let multiplier = yearlyBilling ? 0.75 : 1
 let finalPrice = allPrices[sv].price * multiplier
   htmlPrice.innerHTML = `$${finalPrice}.00`
   */
+  
