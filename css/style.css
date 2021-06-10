@@ -133,10 +133,17 @@ input{
   width: 34px;
   transition: 200ms;
 }
+.billing:active{
+    background: #f23;
+}
 .dot{
-    background-color: #fff;
+    background-color: #f23;
     border-radius: 50%;
     height: 14px;
     width: 14px;
     float: left;
+}
+.dot:active{
+    float: right;
+    background: #fff;
 }
