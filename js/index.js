@@ -4,14 +4,7 @@ let price = document.getElementById("value")
 let biling = document.getElementsByClassName("billing")[0]
 let dot = document.getElementsByClassName("dot")
 let yearlyBilling = false
-biling.addEventListener("click",function(e){
-    if (dot.style.float == "right") {
-        dot.style.background = "#fff"
-        dot.style.float = "left"
-      } else {
-        dot.style.float = "right"
-      }
-})
+
 /*const allprices= [
     {
         pageviews: '10K',
