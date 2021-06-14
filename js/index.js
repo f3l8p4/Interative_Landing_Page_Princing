@@ -1,10 +1,20 @@
-let range  = document.querySelector("input")
+let range  = document.getElementById('range')
 let pageviews = document.getElementById("pageviews")
 let price = document.getElementById("value")
-let biling = document.getElementsByClassName("billing")[0]
+let biling = document.getElementsByClassName("billing")
 let dot = document.getElementsByClassName("dot")
 let yearlyBilling = false
-
+biling.addEventListener("click",function(){
+    if (dot.style.float == "right") {
+      yearlyBilling = false
+      dot.style.float = "left"
+      biling.classList.add("form-active")
+    } else {
+      yearlyBilling = true
+      dot.style.float = "right"
+      biling.classList.remove("form-active")
+    }
+  })
 /*const allprices= [
     {
         pageviews: '10K',

@@ -136,6 +136,9 @@ input{
   width: 34px;
   transition: 200ms;
 }
+.acitve-biling{
+    background: #f23;
+}
 .dot{
     background-color: #f23;
     border-radius: 50%;
