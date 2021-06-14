@@ -42,4 +42,4 @@ let multiplier = yearlyBilling ? 0.75 : 1
 let finalPrice = allPrices[sv].price * multiplier
   htmlPrice.innerHTML = `$${finalPrice}.00`
   */
-  
+console.log('OOLA')  
